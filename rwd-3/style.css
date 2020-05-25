@@ -1,0 +1,263 @@
+body {
+  background-color: rgb(238, 238, 238);
+  display: block;
+  padding: 0;
+  margin:0;
+}
+
+#header-img {
+  width: 300px;
+  height: 50px;
+  margin-bottom:0px;
+margin-left: 0px;
+margin-right:0px;
+margin-top:0;
+padding: 0;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#Pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+  margin-bottom:0px;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 0px;
+padding-bottom:0px;
+padding-left:0px;
+padding-right:0px;
+padding-top:0px;
+  font-family: Lato, Sans-serif;
+}
+
+.product h2 {
+  display: flex;
+  text-transform: uppercase;
+  background-color: rgb(221, 221, 221);
+  margin-bottom:0px;
+margin-left:0px;
+margin-right:0px;
+margin-top:0px;
+padding-bottom:15px;
+padding-left:0px;
+padding-right:0px;
+padding-top: 15px;
+text-align: center;
+}
+
+.product h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.product {
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.product ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  font-family: Lato, Sans-serif;
+}
+
+.button {
+ background-color: rgb(241, 196, 15);
+  border: 0;
+  margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#header {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding-bottom: 10px;
+padding-left:0px;
+padding-right:0px;
+padding-top: 10px;
+  top: 0;
+  background-color: rgb(238, 238, 238);
+  width: 100%;  
+}
+
+#nav-bar ul {
+  list-style-type: none;
+   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 0px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0px;
+  padding-right: 0;
+    padding-top: 10px;
+  padding-bottom: 0;
+ width: 35vw;
+}
+
+.nav-link {
+   text-decoration: none;
+  color: black;
+  font-family: Lato, sans-serif;
+  
+}
+
+@media only screen and (max-width: 800px) {
+  #Pricing {
+  flex-direction: column;
+
+}
+}
+
+@media only screen and (max-width: 800px) {
+  #nav-bar ul {
+    flex-direction: column;
+    }
+  }
+  
+  
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+ h2 {
+  padding-top: 150px;
+  font-size: 24px;
+  font-family: lato, sans-serif;
+  text-align: center;
+}
+
+#email {
+  padding-left: 1px;
+}
+
+#submit {
+  background-color: rgb(241, 196, 15);
+  font-weight: bold;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+ .desc {
+  display: flex;
+   flex-direction: column;
+  justify-content: center;
+  margin: 0;
+   padding: 0;
+   font-family: Lato, Sans-serif;
+   
+}
+
+ .icon {
+  display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: darkorange;
+  margin: 0;
+  padding: 0;
+   width: 1px;
+}
+
+i {
+  font-size: 48px;
+  display: inline-block;
+}
+
+#How-It-works {
+  display: flex;
+  max-width: 560px;
+    width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#video {
+  margin: 50px;
+  width: 400px;
+  height: 50vh;
+}
+
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  margin-bottom: 0px;
+  padding: 0;
+  width: 400px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 10px;
+margin-left:0px;
+margin-right:0px;
+margin-top: 30px;
+  background-color: rgb(221, 221, 221);
+  width: 90%;
+  font-family: Lato, sans-serif;
+}
+
+#foot-bar ul {
+  list-style-type: none;
+   display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 0px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+    padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.foot-link {
+   text-decoration: none;
+  color: black;
+  font-family: Lato, sans-serif;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+    padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  
+}
+
+#footer span {
+  display: flex;
+  justify-content: flex-end;
+}
